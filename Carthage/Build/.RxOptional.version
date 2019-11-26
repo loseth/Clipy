@@ -3,8 +3,8 @@
   "Mac" : [
     {
       "name" : "RxOptional",
-      "hash" : "676856e2fc631939428e1482316791252975e15634f9192404bcd3ff4c1a376d",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "3000ed9c2f42cba0630c7053c04df1630fa1871e12046eae1074aa9f3f252354",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }

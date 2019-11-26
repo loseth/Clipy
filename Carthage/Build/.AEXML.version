@@ -3,8 +3,8 @@
   "Mac" : [
     {
       "name" : "AEXML",
-      "hash" : "12b6115f08e40ab726ebb6f32bcc9cfda1501193c6091b2c35b82666b9905b7b",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "33e2ef43bb751748f76861578e39a9d594e8cf2f1e71b3820798278065bf1d3f",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }

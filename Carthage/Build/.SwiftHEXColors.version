@@ -3,13 +3,13 @@
   "Mac" : [
     {
       "name" : "SwiftHEXColors",
-      "hash" : "b9158d30232aaa04397fbef5030385579fc1162435b4e29f252430772359e504",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "1551f92dae20bad28eb1851dff39067f5a5a7239c545610b50032ac575dfd065",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     },
     {
       "name" : "SwiftHEXColors",
-      "hash" : "b9158d30232aaa04397fbef5030385579fc1162435b4e29f252430772359e504",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "1551f92dae20bad28eb1851dff39067f5a5a7239c545610b50032ac575dfd065",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }

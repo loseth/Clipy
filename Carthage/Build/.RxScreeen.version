@@ -3,8 +3,8 @@
   "Mac" : [
     {
       "name" : "RxScreeen",
-      "hash" : "79bb924365f7510f19ed743097d329353ac90d18602c64441b141916a4ba6b23",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "79d87d0569269d90e0ede86e447712c235e3400174de794792e92db9f39ab684",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }

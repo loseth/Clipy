@@ -3,8 +3,8 @@
   "Mac" : [
     {
       "name" : "RxRealm",
-      "hash" : "ccaaaa150f94ff02a3ee1a4a86cb7caa39602f6b24c35a1776dbe6a0c9a0471f",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "f128226d9c93b828d685a86940023fd9a7fdb794c5106f5c94a03d3c339cfe64",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
     }
   ]
 }
