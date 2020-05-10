@@ -8,53 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */; };
-		5B052897236968B50045FF00 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		5B085A0023696A6400F3450D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		5B085A0123696AFF00F3450D /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052877236968A00045FF00 /* AEXML.framework */; };
-		5B085A0223696AFF00F3450D /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052877236968A00045FF00 /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E241B35DFD000C06102 /* AppKit.framework */; };
-		5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052878236968A00045FF00 /* CryptoSwift.framework */; };
-		5B085A0623696B1200F3450D /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052878236968A00045FF00 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A0723696B1A00F3450D /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052872236968A00045FF00 /* RxSwiftExt.framework */; };
-		5B085A0823696B1A00F3450D /* RxSwiftExt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052872236968A00045FF00 /* RxSwiftExt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A0923696B1A00F3450D /* Sauce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287C236968A10045FF00 /* Sauce.framework */; };
-		5B085A0A23696B1B00F3450D /* Sauce.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287C236968A10045FF00 /* Sauce.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A0B23696B1B00F3450D /* Screeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287D236968A10045FF00 /* Screeen.framework */; };
-		5B085A0C23696B1B00F3450D /* Screeen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287D236968A10045FF00 /* Screeen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A0D23696B1B00F3450D /* SwiftHEXColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052874236968A00045FF00 /* SwiftHEXColors.framework */; };
-		5B085A0E23696B1B00F3450D /* SwiftHEXColors.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052874236968A00045FF00 /* SwiftHEXColors.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A0F23696B2500F3450D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286E236968A00045FF00 /* Realm.framework */; };
-		5B085A1023696B2500F3450D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286E236968A00045FF00 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1123696B2500F3450D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052876236968A00045FF00 /* RealmSwift.framework */; };
-		5B085A1223696B2500F3450D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052876236968A00045FF00 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1323696B2500F3450D /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052880236968A10045FF00 /* RxBlocking.framework */; };
-		5B085A1423696B2500F3450D /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052880236968A10045FF00 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1523696B2500F3450D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287F236968A10045FF00 /* RxCocoa.framework */; };
-		5B085A1623696B2500F3450D /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287F236968A10045FF00 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1723696B2500F3450D /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287A236968A10045FF00 /* RxOptional.framework */; };
-		5B085A1823696B2500F3450D /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287A236968A10045FF00 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1923696B2500F3450D /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052871236968A00045FF00 /* RxRealm.framework */; };
-		5B085A1A23696B2500F3450D /* RxRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052871236968A00045FF00 /* RxRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1B23696B2500F3450D /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052879236968A00045FF00 /* RxRelay.framework */; };
-		5B085A1C23696B2500F3450D /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052879236968A00045FF00 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1D23696B2500F3450D /* RxScreeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052873236968A00045FF00 /* RxScreeen.framework */; };
-		5B085A1E23696B2500F3450D /* RxScreeen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052873236968A00045FF00 /* RxScreeen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A1F23696B2500F3450D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052875236968A00045FF00 /* RxSwift.framework */; };
-		5B085A2023696B2500F3450D /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052875236968A00045FF00 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2123696B2F00F3450D /* KeyHolder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287E236968A10045FF00 /* KeyHolder.framework */; };
-		5B085A2223696B2F00F3450D /* KeyHolder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287E236968A10045FF00 /* KeyHolder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052881236968A10045FF00 /* LetsMove.framework */; };
-		5B085A2423696B2F00F3450D /* LetsMove.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052881236968A10045FF00 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2523696B2F00F3450D /* LoginServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052870236968A00045FF00 /* LoginServiceKit.framework */; };
-		5B085A2623696B2F00F3450D /* LoginServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052870236968A00045FF00 /* LoginServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2723696B2F00F3450D /* Magnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286F236968A00045FF00 /* Magnet.framework */; };
-		5B085A2823696B2F00F3450D /* Magnet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286F236968A00045FF00 /* Magnet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2923696B2F00F3450D /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287B236968A10045FF00 /* PINCache.framework */; };
-		5B085A2A23696B2F00F3450D /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287B236968A10045FF00 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2C236972AC00F3450D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B085A2B236972AC00F3450D /* Nimble.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		5B085A2E236977A800F3450D /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B085A2B236972AC00F3450D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2F236977A800F3450D /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A30236977A800F3450D /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
@@ -111,8 +65,8 @@
 		FA6167921D3ABEB10049FA14 /* FolderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167911D3ABEB10049FA14 /* FolderSpec.swift */; };
 		FA6167941D3ACCB90049FA14 /* DraggedDataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167931D3ACCB90049FA14 /* DraggedDataSpec.swift */; };
 		FA6167961D3ACDD80049FA14 /* SnippetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167951D3ACDD80049FA14 /* SnippetSpec.swift */; };
-		FA6DD5141C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		FA6DD5151C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
 		FA801F4821A99F0400ACBE31 /* AvailableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA801F4721A99F0400ACBE31 /* AvailableType.swift */; };
 		FAA4BCCC2163DC9100FF5D18 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BCCB2163DC9100FF5D18 /* AccessibilityService.swift */; };
 		FAC0DCE91DE15FD900309C49 /* DataCleanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCE81DE15FD900309C49 /* DataCleanService.swift */; };
@@ -143,9 +97,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5B085A2E236977A800F3450D /* Nimble.framework in CopyFiles */,
-				5B085A2F236977A800F3450D /* Quick.framework in CopyFiles */,
-				5B085A30236977A800F3450D /* RxTest.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,26 +106,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5B085A0E23696B1B00F3450D /* SwiftHEXColors.framework in Embed Frameworks */,
-				5B085A0A23696B1B00F3450D /* Sauce.framework in Embed Frameworks */,
-				5B085A0223696AFF00F3450D /* AEXML.framework in Embed Frameworks */,
-				5B085A1C23696B2500F3450D /* RxRelay.framework in Embed Frameworks */,
-				5B085A0C23696B1B00F3450D /* Screeen.framework in Embed Frameworks */,
-				5B085A2A23696B2F00F3450D /* PINCache.framework in Embed Frameworks */,
-				5B085A2623696B2F00F3450D /* LoginServiceKit.framework in Embed Frameworks */,
-				5B085A2023696B2500F3450D /* RxSwift.framework in Embed Frameworks */,
-				5B085A2223696B2F00F3450D /* KeyHolder.framework in Embed Frameworks */,
-				5B085A1A23696B2500F3450D /* RxRealm.framework in Embed Frameworks */,
-				5B085A1E23696B2500F3450D /* RxScreeen.framework in Embed Frameworks */,
-				5B085A1023696B2500F3450D /* Realm.framework in Embed Frameworks */,
-				5B085A0823696B1A00F3450D /* RxSwiftExt.framework in Embed Frameworks */,
-				5B085A2823696B2F00F3450D /* Magnet.framework in Embed Frameworks */,
-				5B085A1223696B2500F3450D /* RealmSwift.framework in Embed Frameworks */,
-				5B085A1823696B2500F3450D /* RxOptional.framework in Embed Frameworks */,
-				5B085A2423696B2F00F3450D /* LetsMove.framework in Embed Frameworks */,
-				5B085A0623696B1200F3450D /* CryptoSwift.framework in Embed Frameworks */,
-				5B085A1623696B2500F3450D /* RxCocoa.framework in Embed Frameworks */,
-				5B085A1423696B2500F3450D /* RxBlocking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,29 +148,6 @@
 		54ADE1012008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CPYUpdatesPreferenceViewController.strings"; sourceTree = "<group>"; };
 		54ADE1022008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CPYSnippetsEditorWindowController.strings"; sourceTree = "<group>"; };
 		54ADE1032008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5B05286E236968A00045FF00 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/Mac/Realm.framework; sourceTree = "<group>"; };
-		5B05286F236968A00045FF00 /* Magnet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Magnet.framework; path = Carthage/Build/Mac/Magnet.framework; sourceTree = "<group>"; };
-		5B052870236968A00045FF00 /* LoginServiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginServiceKit.framework; path = Carthage/Build/Mac/LoginServiceKit.framework; sourceTree = "<group>"; };
-		5B052871236968A00045FF00 /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/Mac/RxRealm.framework; sourceTree = "<group>"; };
-		5B052872236968A00045FF00 /* RxSwiftExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwiftExt.framework; path = Carthage/Build/Mac/RxSwiftExt.framework; sourceTree = "<group>"; };
-		5B052873236968A00045FF00 /* RxScreeen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxScreeen.framework; path = Carthage/Build/Mac/RxScreeen.framework; sourceTree = "<group>"; };
-		5B052874236968A00045FF00 /* SwiftHEXColors.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHEXColors.framework; path = Carthage/Build/Mac/SwiftHEXColors.framework; sourceTree = "<group>"; };
-		5B052875236968A00045FF00 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
-		5B052876236968A00045FF00 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/Mac/RealmSwift.framework; sourceTree = "<group>"; };
-		5B052877236968A00045FF00 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/Mac/AEXML.framework; sourceTree = "<group>"; };
-		5B052878236968A00045FF00 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = "<group>"; };
-		5B052879236968A00045FF00 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/Mac/RxRelay.framework; sourceTree = "<group>"; };
-		5B05287A236968A10045FF00 /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/Mac/RxOptional.framework; sourceTree = "<group>"; };
-		5B05287B236968A10045FF00 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/Mac/PINCache.framework; sourceTree = "<group>"; };
-		5B05287C236968A10045FF00 /* Sauce.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sauce.framework; path = Carthage/Build/Mac/Sauce.framework; sourceTree = "<group>"; };
-		5B05287D236968A10045FF00 /* Screeen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Screeen.framework; path = Carthage/Build/Mac/Screeen.framework; sourceTree = "<group>"; };
-		5B05287E236968A10045FF00 /* KeyHolder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeyHolder.framework; path = Carthage/Build/Mac/KeyHolder.framework; sourceTree = "<group>"; };
-		5B05287F236968A10045FF00 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
-		5B052880236968A10045FF00 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
-		5B052881236968A10045FF00 /* LetsMove.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LetsMove.framework; path = Carthage/Build/Mac/LetsMove.framework; sourceTree = "<group>"; };
-		5B052896236968B50045FF00 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = "<group>"; };
-		5B0859FF23696A6400F3450D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		5B085A2B236972AC00F3450D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		5B257DE32309115D00E340DE /* Clipy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipy-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardTypeSpec.swift; sourceTree = "<group>"; };
 		5BA49A862310180E0002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -349,32 +257,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B085A1123696B2500F3450D /* RealmSwift.framework in Frameworks */,
-				5B085A2923696B2F00F3450D /* PINCache.framework in Frameworks */,
-				5B085A1523696B2500F3450D /* RxCocoa.framework in Frameworks */,
-				5B085A1923696B2500F3450D /* RxRealm.framework in Frameworks */,
 				5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */,
-				5B085A1F23696B2500F3450D /* RxSwift.framework in Frameworks */,
-				5B085A0F23696B2500F3450D /* Realm.framework in Frameworks */,
-				5B085A2123696B2F00F3450D /* KeyHolder.framework in Frameworks */,
 				FAC43E2B1B35DFDF00C06102 /* WebKit.framework in Frameworks */,
 				FAC43E291B35DFDA00C06102 /* Cocoa.framework in Frameworks */,
 				FAC43E271B35DFD300C06102 /* Carbon.framework in Frameworks */,
-				5B085A0D23696B1B00F3450D /* SwiftHEXColors.framework in Frameworks */,
-				5B085A2723696B2F00F3450D /* Magnet.framework in Frameworks */,
-				5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */,
-				5B085A0723696B1A00F3450D /* RxSwiftExt.framework in Frameworks */,
-				5B085A1D23696B2500F3450D /* RxScreeen.framework in Frameworks */,
-				5B085A1B23696B2500F3450D /* RxRelay.framework in Frameworks */,
 				FAC43E231B35DFC800C06102 /* Foundation.framework in Frameworks */,
-				5B085A1723696B2500F3450D /* RxOptional.framework in Frameworks */,
-				5B085A2523696B2F00F3450D /* LoginServiceKit.framework in Frameworks */,
-				5B085A0923696B1A00F3450D /* Sauce.framework in Frameworks */,
 				59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */,
-				5B085A1323696B2500F3450D /* RxBlocking.framework in Frameworks */,
-				5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */,
-				5B085A0B23696B1B00F3450D /* Screeen.framework in Frameworks */,
-				5B085A0123696AFF00F3450D /* AEXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,10 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B052897236968B50045FF00 /* RxTest.framework in Frameworks */,
 				BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */,
-				5B085A0023696A6400F3450D /* Quick.framework in Frameworks */,
-				5B085A2C236972AC00F3450D /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,29 +280,6 @@
 		2CB0F71AAC48A392535FD3B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B085A2B236972AC00F3450D /* Nimble.framework */,
-				5B0859FF23696A6400F3450D /* Quick.framework */,
-				5B052896236968B50045FF00 /* RxTest.framework */,
-				5B052877236968A00045FF00 /* AEXML.framework */,
-				5B052878236968A00045FF00 /* CryptoSwift.framework */,
-				5B05287E236968A10045FF00 /* KeyHolder.framework */,
-				5B052881236968A10045FF00 /* LetsMove.framework */,
-				5B052870236968A00045FF00 /* LoginServiceKit.framework */,
-				5B05286F236968A00045FF00 /* Magnet.framework */,
-				5B05287B236968A10045FF00 /* PINCache.framework */,
-				5B05286E236968A00045FF00 /* Realm.framework */,
-				5B052876236968A00045FF00 /* RealmSwift.framework */,
-				5B052880236968A10045FF00 /* RxBlocking.framework */,
-				5B05287F236968A10045FF00 /* RxCocoa.framework */,
-				5B05287A236968A10045FF00 /* RxOptional.framework */,
-				5B052871236968A00045FF00 /* RxRealm.framework */,
-				5B052879236968A00045FF00 /* RxRelay.framework */,
-				5B052873236968A00045FF00 /* RxScreeen.framework */,
-				5B052875236968A00045FF00 /* RxSwift.framework */,
-				5B052872236968A00045FF00 /* RxSwiftExt.framework */,
-				5B05287C236968A10045FF00 /* Sauce.framework */,
-				5B05287D236968A10045FF00 /* Screeen.framework */,
-				5B052874236968A00045FF00 /* SwiftHEXColors.framework */,
 				FAC43E2A1B35DFDF00C06102 /* WebKit.framework */,
 				FAC43E281B35DFDA00C06102 /* Cocoa.framework */,
 				FAC43E261B35DFD300C06102 /* Carbon.framework */,
@@ -727,6 +589,7 @@
 				FAC43DD51B35D8B100C06102 /* Frameworks */,
 				FAC43DD61B35D8B100C06102 /* Resources */,
 				5B085A2D2369778800F3450D /* CopyFiles */,
+				4101FE510E91722C8D2A89BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -792,7 +655,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1DB5131DDCB4C0007F95C8 /* CPYPreferencesWindowController.xib in Resources */,
-				FA6DD5141C7DEDB600317E73 /* (null) in Resources */,
+				FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */,
 				FA1DB51E1DDCB4C0007F95C8 /* CPYTypePreferenceViewController.xib in Resources */,
 				FA1DB4901DDCA5D9007F95C8 /* Images.xcassets in Resources */,
 				FA1DB51D1DDCB4C0007F95C8 /* CPYShortcutsPreferenceViewController.xib in Resources */,
@@ -801,7 +664,7 @@
 				FA1DB51B1DDCB4C0007F95C8 /* CPYGeneralPreferenceViewController.xib in Resources */,
 				FA1DB51A1DDCB4C0007F95C8 /* CPYExcludeAppPreferenceViewController.xib in Resources */,
 				FA1DB5191DDCB4C0007F95C8 /* CPYBetaPreferenceViewController.xib in Resources */,
-				FA6DD5151C7DEDB600317E73 /* (null) in Resources */,
+				FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */,
 				FA1DB4981DDCB2CB007F95C8 /* Localizable.strings in Resources */,
 				FA1DB49F1DDCB417007F95C8 /* MainMenu.xib in Resources */,
 				FA1DB5221DDCB4C0007F95C8 /* CPYSnippetsEditorWindowController.xib in Resources */,
@@ -825,13 +688,49 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KeyHolder/KeyHolder.framework",
+				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
+				"${BUILT_PRODUCTS_DIR}/LoginServiceKit/LoginServiceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxScreeen/RxScreeen.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Sauce/Sauce.framework",
+				"${BUILT_PRODUCTS_DIR}/Screeen/Screeen.framework",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyHolder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoginServiceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxScreeen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sauce.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Screeen.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -858,6 +757,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4101FE510E91722C8D2A89BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipyTests/Pods-ClipyTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClipyTests/Pods-ClipyTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EE848130506B5E6BF0E544E /* [CP] Check Pods Manifest.lock */ = {
