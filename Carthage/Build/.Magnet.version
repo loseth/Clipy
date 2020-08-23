@@ -1,10 +1,11 @@
 {
-  "commitish" : "v2.3.1",
+  "commitish" : "v3.2.0",
   "Mac" : [
     {
+      "hash" : "bf41e7222569930541238a2c13f01fe56729d776935390508e9bacbf2cd46769",
       "name" : "Magnet",
-      "hash" : "014323a162feb6b7861bea9f0785aadd6f23013ec680e514b9477f25f77bbc97",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

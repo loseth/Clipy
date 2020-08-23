@@ -1,30 +1,35 @@
 {
-  "commitish" : "5.0.1",
+  "commitish" : "5.1.1",
   "Mac" : [
     {
+      "hash" : "2ca692987313843a9e30b341ed5747846ade4fdfe7a43d7e9fd5efcb8d7adc9a",
       "name" : "RxBlocking",
-      "hash" : "1b63e2c0c6ed9834645bd5ef51d5c4a6a64b9a750173d30bda44729d657de7ae",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     },
     {
+      "hash" : "c8aa29cc16fd60c339f72b9b10fb051d43fcabd05ab1a1d9a2b80d03bb2d44f9",
       "name" : "RxCocoa",
-      "hash" : "6d44d6ffccabed7b9579589565f89efe107277700670741714c4c1ba3c79e112",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     },
     {
+      "hash" : "b21efffc8ecdf576fe93be23b9541aee45628b912dd9e529977f660865b164e6",
       "name" : "RxRelay",
-      "hash" : "ab222b3fb3f7a7bf95e06cfd36048bfa071c10a81f59d7bf4d1f5dad94695753",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     },
     {
+      "hash" : "c23218144ac8aa517f7f9ae6e1d5737682783222b47ec7c03de841524098a39a",
       "name" : "RxTest",
-      "hash" : "6d8c9c6d57963fdfd02d97c085fad43160d3bb2ed27991b2199812f71d185482",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     },
     {
+      "hash" : "e9943e6f837e820d6916b0a312dc66ab92b571e2893ebfef6d7287efeaced4e3",
       "name" : "RxSwift",
-      "hash" : "f6c3b7b37d60489a5beb9d406fe275ebda53cf071c3aca56d9805b2fbed72782",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

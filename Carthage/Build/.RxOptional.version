@@ -2,9 +2,10 @@
   "commitish" : "4.1.0",
   "Mac" : [
     {
+      "hash" : "3be65210d39778e9e2b0bb397918f34417a82c3abbbc9f2b61a99f695d0bc4d6",
       "name" : "RxOptional",
-      "hash" : "676856e2fc631939428e1482316791252975e15634f9192404bcd3ff4c1a376d",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

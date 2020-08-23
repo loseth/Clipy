@@ -1,10 +1,11 @@
 {
-  "commitish" : "1.0.1",
+  "commitish" : "3.1.0",
   "Mac" : [
     {
+      "hash" : "2db0c02d7c4aa1c73e29601530743b741f3012c71472801650d3d2f1e91c28f0",
       "name" : "RxRealm",
-      "hash" : "ccaaaa150f94ff02a3ee1a4a86cb7caa39602f6b24c35a1776dbe6a0c9a0471f",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

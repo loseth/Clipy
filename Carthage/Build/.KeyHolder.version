@@ -1,10 +1,11 @@
 {
-  "commitish" : "v3.0.1",
+  "commitish" : "v4.0.0",
   "Mac" : [
     {
+      "hash" : "f695c129494766fadd1999af97a9b80f20c7ff7ac88e68c5a094ea78c67054fe",
       "name" : "KeyHolder",
-      "hash" : "1ee67e8244f8cbcaca6921eaf84d0c9b349392279d3d3c1256ea1ea418e37f66",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

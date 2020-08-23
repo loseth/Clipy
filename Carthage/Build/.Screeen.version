@@ -1,10 +1,11 @@
 {
-  "commitish" : "v1.3.0",
+  "commitish" : "v2.0.1",
   "Mac" : [
     {
+      "hash" : "3f466e229475c3364205ae98c4747e9ca0afe243f9609b27dafbbfecb9597a80",
       "name" : "Screeen",
-      "hash" : "4f8573695be6d0bdc9074f77d509600b039f4e024895a738f073a33f16ccc1bb",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

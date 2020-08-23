@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target x86_64-apple-macos10.12 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=unchecked -O -module-name CryptoSwift
 @_exported import CryptoSwift
 import Darwin
@@ -53,17 +53,17 @@ final public class GCM : CryptoSwift.BlockMode {
   }
   final public var authenticationTag: Swift.Array<Swift.UInt8>?
   public init(iv: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil, tagLength: Swift.Int = 16, mode: CryptoSwift.GCM.Mode = .detached)
-  public convenience init(iv: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil, mode: CryptoSwift.GCM.Mode = .detached)
+  convenience public init(iv: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil, mode: CryptoSwift.GCM.Mode = .detached)
   final public func worker(blockSize: Swift.Int, cipherOperation: @escaping CryptoSwift.CipherOperationOnBlock) throws -> CryptoSwift.CipherModeWorker
   @objc deinit
 }
-final public class CBCMAC : CryptoSwift.CMAC {
+@_inheritsConvenienceInitializers final public class CBCMAC : CryptoSwift.CMAC {
   override final public func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
-  override public init(key: Swift.Array<Swift.UInt8>) throws
   @objc deinit
+  override public init(key: Swift.Array<Swift.UInt8>) throws
 }
 extension AES {
-  public convenience init(key: Swift.String, iv: Swift.String, padding: CryptoSwift.Padding = .pkcs7) throws
+  convenience public init(key: Swift.String, iv: Swift.String, padding: CryptoSwift.Padding = .pkcs7) throws
 }
 public struct HKDF {
   public enum Error : Swift.Error {
@@ -89,11 +89,7 @@ final public class HMAC : CryptoSwift.Authenticator {
     public func hash(into hasher: inout Swift.Hasher)
   }
   public enum Variant {
-    case sha1
-    case sha256
-    case sha384
-    case sha512
-    case md5
+    case sha1, sha256, sha384, sha512, md5
     public static func == (a: CryptoSwift.HMAC.Variant, b: CryptoSwift.HMAC.Variant) -> Swift.Bool
     public var hashValue: Swift.Int {
       get
@@ -104,8 +100,8 @@ final public class HMAC : CryptoSwift.Authenticator {
   final public func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
   @objc deinit
 }
-final public class AEADChaCha20Poly1305 : CryptoSwift.AEAD {
-  public static var kLen: Swift.Int
+@_hasMissingDesignatedInitializers final public class AEADChaCha20Poly1305 : CryptoSwift.AEAD {
+  public static let kLen: Swift.Int
   public static var ivRange: Swift.Range<Swift.Int>
   public static func encrypt(_ plainText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>) throws -> (cipherText: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>)
   public static func decrypt(_ cipherText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>) throws -> (plainText: Swift.Array<Swift.UInt8>, success: Swift.Bool)
@@ -120,7 +116,7 @@ final public class Poly1305 : CryptoSwift.Authenticator {
     }
     public func hash(into hasher: inout Swift.Hasher)
   }
-  public static var blockSize: Swift.Int
+  public static let blockSize: Swift.Int
   public init(key: Swift.Array<Swift.UInt8>)
   final public func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
   @objc deinit
@@ -155,10 +151,7 @@ extension Cipher {
 }
 final public class SHA2 {
   public enum Variant : Swift.RawRepresentable {
-    case sha224
-    case sha256
-    case sha384
-    case sha512
+    case sha224, sha256, sha384, sha512
     public var digestLength: Swift.Int {
       get
     }
@@ -179,7 +172,7 @@ extension SHA2 : CryptoSwift.Updatable {
   final public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool = false) throws -> Swift.Array<Swift.UInt8>
 }
 extension Blowfish {
-  public convenience init(key: Swift.String, iv: Swift.String, padding: CryptoSwift.Padding = .pkcs7) throws
+  convenience public init(key: Swift.String, iv: Swift.String, padding: CryptoSwift.Padding = .pkcs7) throws
 }
 public protocol Updatable {
   mutating func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool) throws -> Swift.Array<Swift.UInt8>
@@ -197,7 +190,7 @@ extension Updatable {
   public mutating func finish(withBytes bytes: Swift.Array<Swift.UInt8>, output: (Swift.Array<Swift.UInt8>) -> Swift.Void) throws
   public mutating func finish(output: (Swift.Array<Swift.UInt8>) -> Swift.Void) throws
 }
-final public class Checksum {
+@_hasMissingDesignatedInitializers final public class Checksum {
   @objc deinit
 }
 extension Checksum {
@@ -206,8 +199,8 @@ extension Checksum {
   public static func crc16(_ message: Swift.Array<Swift.UInt8>, seed: Swift.UInt16? = nil) -> Swift.UInt16
 }
 extension Rabbit {
-  public convenience init(key: Swift.String) throws
-  public convenience init(key: Swift.String, iv: Swift.String) throws
+  convenience public init(key: Swift.String) throws
+  convenience public init(key: Swift.String, iv: Swift.String) throws
 }
 extension PKCS5 {
   public struct PBKDF1 {
@@ -221,8 +214,7 @@ extension PKCS5 {
       public func hash(into hasher: inout Swift.Hasher)
     }
     public enum Variant {
-      case md5
-      case sha1
+      case md5, sha1
       public static func == (a: CryptoSwift.PKCS5.PBKDF1.Variant, b: CryptoSwift.PKCS5.PBKDF1.Variant) -> Swift.Bool
       public var hashValue: Swift.Int {
         get
@@ -274,7 +266,7 @@ public protocol FinalizingDecryptModeWorker : CryptoSwift.CipherModeWorker {
   mutating func finalize(decrypt plaintext: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.ArraySlice<Swift.UInt8>
 }
 extension HMAC {
-  public convenience init(key: Swift.String, variant: CryptoSwift.HMAC.Variant = .md5) throws
+  convenience public init(key: Swift.String, variant: CryptoSwift.HMAC.Variant = .md5) throws
 }
 extension String {
   public var bytes: Swift.Array<Swift.UInt8> {
@@ -315,7 +307,7 @@ public enum Bit : Swift.Int {
   }
 }
 extension ChaCha20 {
-  public convenience init(key: Swift.String, iv: Swift.String) throws
+  convenience public init(key: Swift.String, iv: Swift.String) throws
 }
 public struct CCM {
   public enum Error : Swift.Error {
@@ -367,16 +359,14 @@ final public class AES {
     public func hash(into hasher: inout Swift.Hasher)
   }
   public enum Variant : Swift.Int {
-    case aes128
-    case aes192
-    case aes256
+    case aes128, aes192, aes256
     public typealias RawValue = Swift.Int
     public init?(rawValue: Swift.Int)
     public var rawValue: Swift.Int {
       get
     }
   }
-  public static var blockSize: Swift.Int
+  public static let blockSize: Swift.Int
   final public let keySize: Swift.Int
   final public let variant: CryptoSwift.AES.Variant
   public init(key: Swift.Array<Swift.UInt8>, blockMode: CryptoSwift.BlockMode, padding: CryptoSwift.Padding = .pkcs7) throws
@@ -398,7 +388,7 @@ final public class Blowfish {
     }
     public func hash(into hasher: inout Swift.Hasher)
   }
-  public static var blockSize: Swift.Int
+  public static let blockSize: Swift.Int
   final public let keySize: Swift.Int
   public init(key: Swift.Array<Swift.UInt8>, blockMode: CryptoSwift.BlockMode = CBC(iv: Array<UInt8>(repeating: 0, count: Blowfish.blockSize)), padding: CryptoSwift.Padding) throws
   @objc deinit
@@ -412,10 +402,7 @@ public protocol PaddingProtocol {
   func remove(from: Swift.Array<Swift.UInt8>, blockSize: Swift.Int?) -> Swift.Array<Swift.UInt8>
 }
 public enum Padding : CryptoSwift.PaddingProtocol {
-  case noPadding
-  case zeroPadding
-  case pkcs7
-  case pkcs5
+  case noPadding, zeroPadding, pkcs7, pkcs5, iso78164
   public func add(to: Swift.Array<Swift.UInt8>, blockSize: Swift.Int) -> Swift.Array<Swift.UInt8>
   public func remove(from: Swift.Array<Swift.UInt8>, blockSize: Swift.Int?) -> Swift.Array<Swift.UInt8>
   public static func == (a: CryptoSwift.Padding, b: CryptoSwift.Padding) -> Swift.Bool
@@ -530,7 +517,7 @@ final public class ChaCha20 {
     }
     public func hash(into hasher: inout Swift.Hasher)
   }
-  public static var blockSize: Swift.Int
+  public static let blockSize: Swift.Int
   final public let keySize: Swift.Int
   public init(key: Swift.Array<Swift.UInt8>, iv nonce: Swift.Array<Swift.UInt8>) throws
   @objc deinit
@@ -595,13 +582,13 @@ final public class Rabbit {
     }
     public func hash(into hasher: inout Swift.Hasher)
   }
-  public static var ivSize: Swift.Int
-  public static var keySize: Swift.Int
-  public static var blockSize: Swift.Int
+  public static let ivSize: Swift.Int
+  public static let keySize: Swift.Int
+  public static let blockSize: Swift.Int
   final public var keySize: Swift.Int {
     get
   }
-  public convenience init(key: Swift.Array<Swift.UInt8>) throws
+  convenience public init(key: Swift.Array<Swift.UInt8>) throws
   public init(key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>?) throws
   @objc deinit
 }
@@ -609,7 +596,7 @@ extension Rabbit : CryptoSwift.Cipher {
   final public func encrypt(_ bytes: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
   final public func decrypt(_ bytes: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
 }
-public class BlockDecryptor : CryptoSwift.Cryptor, CryptoSwift.Updatable {
+@_hasMissingDesignatedInitializers public class BlockDecryptor : CryptoSwift.Cryptor, CryptoSwift.Updatable {
   public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool = false) throws -> Swift.Array<Swift.UInt8>
   public func seek(to position: Swift.Int) throws
   @objc deinit
@@ -627,14 +614,7 @@ final public class SHA3 {
   final public let digestLength: Swift.Int
   final public let markByte: Swift.UInt8
   public enum Variant {
-    case sha224
-    case sha256
-    case sha384
-    case sha512
-    case keccak224
-    case keccak256
-    case keccak384
-    case keccak512
+    case sha224, sha256, sha384, sha512, keccak224, keccak256, keccak384, keccak512
     public var outputLength: Swift.Int {
       get
     }
@@ -668,5 +648,59 @@ public struct Digest {
   public static func sha2(_ bytes: Swift.Array<Swift.UInt8>, variant: CryptoSwift.SHA2.Variant) -> Swift.Array<Swift.UInt8>
   public static func sha3(_ bytes: Swift.Array<Swift.UInt8>, variant: CryptoSwift.SHA3.Variant) -> Swift.Array<Swift.UInt8>
 }
+extension CryptoSwift.CFB.Error : Swift.Equatable {}
+extension CryptoSwift.CFB.Error : Swift.Hashable {}
+extension CryptoSwift.CMAC.Error : Swift.Equatable {}
+extension CryptoSwift.CMAC.Error : Swift.Hashable {}
+extension CryptoSwift.GCM.Mode : Swift.Equatable {}
+extension CryptoSwift.GCM.Mode : Swift.Hashable {}
+extension CryptoSwift.GCM.Error : Swift.Equatable {}
+extension CryptoSwift.GCM.Error : Swift.Hashable {}
+extension CryptoSwift.HKDF.Error : Swift.Equatable {}
+extension CryptoSwift.HKDF.Error : Swift.Hashable {}
+extension CryptoSwift.HMAC.Error : Swift.Equatable {}
+extension CryptoSwift.HMAC.Error : Swift.Hashable {}
+extension CryptoSwift.HMAC.Variant : Swift.Equatable {}
+extension CryptoSwift.HMAC.Variant : Swift.Hashable {}
+extension CryptoSwift.Poly1305.Error : Swift.Equatable {}
+extension CryptoSwift.Poly1305.Error : Swift.Hashable {}
+extension CryptoSwift.CipherError : Swift.Equatable {}
+extension CryptoSwift.CipherError : Swift.Hashable {}
+extension CryptoSwift.SHA2.Variant : Swift.Equatable {}
+extension CryptoSwift.SHA2.Variant : Swift.Hashable {}
+extension CryptoSwift.PKCS5.PBKDF1.Error : Swift.Equatable {}
+extension CryptoSwift.PKCS5.PBKDF1.Error : Swift.Hashable {}
+extension CryptoSwift.PKCS5.PBKDF1.Variant : Swift.Equatable {}
+extension CryptoSwift.PKCS5.PBKDF1.Variant : Swift.Hashable {}
+extension CryptoSwift.Bit : Swift.Equatable {}
+extension CryptoSwift.Bit : Swift.Hashable {}
+extension CryptoSwift.Bit : Swift.RawRepresentable {}
 extension CryptoSwift.CCM : CryptoSwift.BlockMode {}
+extension CryptoSwift.CCM.Error : Swift.Equatable {}
+extension CryptoSwift.CCM.Error : Swift.Hashable {}
 extension CryptoSwift.CTR : CryptoSwift.BlockMode {}
+extension CryptoSwift.CTR.Error : Swift.Equatable {}
+extension CryptoSwift.CTR.Error : Swift.Hashable {}
+extension CryptoSwift.AES.Error : Swift.Equatable {}
+extension CryptoSwift.AES.Error : Swift.Hashable {}
+extension CryptoSwift.AES.Variant : Swift.Equatable {}
+extension CryptoSwift.AES.Variant : Swift.Hashable {}
+extension CryptoSwift.AES.Variant : Swift.RawRepresentable {}
+extension CryptoSwift.Blowfish.Error : Swift.Equatable {}
+extension CryptoSwift.Blowfish.Error : Swift.Hashable {}
+extension CryptoSwift.Padding : Swift.Equatable {}
+extension CryptoSwift.Padding : Swift.Hashable {}
+extension CryptoSwift.OFB.Error : Swift.Equatable {}
+extension CryptoSwift.OFB.Error : Swift.Hashable {}
+extension CryptoSwift.PCBC.Error : Swift.Equatable {}
+extension CryptoSwift.PCBC.Error : Swift.Hashable {}
+extension CryptoSwift.ChaCha20.Error : Swift.Equatable {}
+extension CryptoSwift.ChaCha20.Error : Swift.Hashable {}
+extension CryptoSwift.CBC.Error : Swift.Equatable {}
+extension CryptoSwift.CBC.Error : Swift.Hashable {}
+extension CryptoSwift.PKCS5.PBKDF2.Error : Swift.Equatable {}
+extension CryptoSwift.PKCS5.PBKDF2.Error : Swift.Hashable {}
+extension CryptoSwift.Rabbit.Error : Swift.Equatable {}
+extension CryptoSwift.Rabbit.Error : Swift.Hashable {}
+extension CryptoSwift.SHA3.Variant : Swift.Equatable {}
+extension CryptoSwift.SHA3.Variant : Swift.Hashable {}

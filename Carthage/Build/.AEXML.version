@@ -2,9 +2,10 @@
   "commitish" : "4.5.0",
   "Mac" : [
     {
+      "hash" : "d871748ec54c95422a3eb76a8c7ea0aead98717e1972c626596a421c971ae44c",
       "name" : "AEXML",
-      "hash" : "12b6115f08e40ab726ebb6f32bcc9cfda1501193c6091b2c35b82666b9905b7b",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
     }
   ]
 }

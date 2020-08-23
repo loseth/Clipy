@@ -1,0 +1,10 @@
+{
+  "commitish" : "1.2",
+  "Mac" : [
+    {
+      "name" : "PINOperation",
+      "hash" : "27082785b8332bd161e0f7219e4643fcff6677728cbcfa111e10bec809dd72be",
+      "linking" : "dynamic"
+    }
+  ]
+}
